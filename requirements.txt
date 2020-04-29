@@ -1,0 +1,6 @@
+click
+requests
+munch
+pytest
+requests-mock
+robber

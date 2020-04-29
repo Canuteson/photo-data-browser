@@ -25,6 +25,9 @@ Install dependencies:
 `pip install -Ur requirements.txt`  
 
 
+Run tests:  
+`pytest tests/`
+
 Install the CLI:  
 `pip install -e .`
 
@@ -37,8 +40,8 @@ Run:
 Requirements:  
 * Docker
 
-Build the Docker image:  
-`make`
+Build and test the Docker image:  
+`make test`
 
 Run:  
 `docker run -it --rm photo-album-cli [ALBUM ID]`
